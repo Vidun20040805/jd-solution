@@ -5,8 +5,13 @@ import { ThemeProvider } from './theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'JD Solution',
-  description: 'Digital Marketing Agency for Tuition Masters and Educators in Sri Lanka',
+  title: 'JD Solution | Expert Digital Agency for Educators & Businesses',
+  description: 'Elevate your brand with JD Solution. We specialize in premium web design, social media management, and digital marketing tailored for educators and modern businesses in Sri Lanka.',
+  keywords: ['JD Solution', 'Web Design Sri Lanka', 'Digital Marketing for Educators', 'JD Solution Agency', 'Best Web Design Agency Sri Lanka'],
+  openGraph: {
+    title: 'JD Solution | Expert Digital Agency for Educators & Businesses',
+    description: 'Elevate your brand with JD Solution. We specialize in premium web design, social media management, and digital marketing tailored for educators and modern businesses in Sri Lanka.',
+  },
 }
 
 export default function RootLayout({

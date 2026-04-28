@@ -7,9 +7,9 @@ import Image from 'next/image';
 import { 
   Menu, 
   X, 
-  Video, 
-  Film, 
-  TrendingUp, 
+  Globe, 
+  Share2, 
+  GraduationCap, 
   ChevronRight,
   Mail,
   Phone,
@@ -236,11 +236,11 @@ export default function JDSolutionLanding() {
               <motion.div 
                 className="w-16 h-16 bg-blue-50/80 dark:bg-slate-700/80 rounded-full flex items-center justify-center mb-8 border border-blue-100 dark:border-slate-600 group-hover:scale-110 group-hover:bg-[#003366] group-hover:border-[#003366] group-hover:shadow-[0_0_20px_rgba(0,51,102,0.4)] transition-all duration-500"
               >
-                <Video className="text-[#003366] dark:text-blue-400 group-hover:text-white transition-colors duration-300" size={32} />
+                <Globe className="text-[#003366] dark:text-blue-400 group-hover:text-white transition-colors duration-300" size={32} />
               </motion.div>
-              <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">Smart Studio Setup</h4>
+              <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">Web Design & Development</h4>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-8 flex-grow">
-                Complete, professional studio setups optimized for online teaching. High-quality lighting, audio, and visual equipment.
+                Specialized websites for educators, schools, and private classes. Fully responsive and SEO-optimized.
               </p>
               <div className="mt-auto pt-4 border-t border-slate-100 dark:border-slate-700/50">
                 <a href="#contact" className="inline-flex items-center text-sm font-bold text-slate-500 hover:text-[#003366] dark:text-slate-400 dark:hover:text-blue-400 transition-colors uppercase tracking-widest group/link">
@@ -259,11 +259,11 @@ export default function JDSolutionLanding() {
               <motion.div 
                 className="w-16 h-16 bg-orange-50/80 dark:bg-slate-700/80 rounded-full flex items-center justify-center mb-8 border border-orange-100 dark:border-slate-600 group-hover:scale-110 group-hover:bg-[#FF8C00] group-hover:border-[#FF8C00] group-hover:shadow-[0_0_20px_rgba(255,140,0,0.4)] transition-all duration-500"
               >
-                <Film className="text-[#FF8C00] group-hover:text-white transition-colors duration-300" size={32} />
+                <Share2 className="text-[#FF8C00] group-hover:text-white transition-colors duration-300" size={32} />
               </motion.div>
-              <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">Professional Video Production</h4>
+              <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">Social Media Management</h4>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-8 flex-grow">
-                High-end filming, editing, and post-production. Captivating educational content that keeps students engaged.
+                We handle your Facebook, TikTok, and Instagram growth. Professional content creation and daily management.
               </p>
               <div className="mt-auto pt-4 border-t border-slate-100 dark:border-slate-700/50">
                 <a href="#contact" className="inline-flex items-center text-sm font-bold text-slate-500 hover:text-[#FF8C00] dark:text-slate-400 dark:hover:text-[#FF8C00] transition-colors uppercase tracking-widest group/link">
@@ -282,11 +282,11 @@ export default function JDSolutionLanding() {
               <motion.div 
                 className="w-16 h-16 bg-blue-50/80 dark:bg-slate-700/80 rounded-full flex items-center justify-center mb-8 border border-blue-100 dark:border-slate-600 group-hover:scale-110 group-hover:bg-[#003366] group-hover:border-[#003366] group-hover:shadow-[0_0_20px_rgba(0,51,102,0.4)] transition-all duration-500"
               >
-                <TrendingUp className="text-[#003366] dark:text-blue-400 group-hover:text-white transition-colors duration-300" size={32} />
+                <GraduationCap className="text-[#003366] dark:text-blue-400 group-hover:text-white transition-colors duration-300" size={32} />
               </motion.div>
-              <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">Social Media & Ads Management</h4>
+              <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight">LMS & Online Class Setup</h4>
               <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-8 flex-grow">
-                Data-driven campaigns on TikTok, Facebook, and Instagram to maximize student enrollments.
+                Complete setup of learning management systems for online teaching and course selling.
               </p>
               <div className="mt-auto pt-4 border-t border-slate-100 dark:border-slate-700/50">
                 <a href="#contact" className="inline-flex items-center text-sm font-bold text-slate-500 hover:text-[#003366] dark:text-slate-400 dark:hover:text-blue-400 transition-colors uppercase tracking-widest group/link">
@@ -535,10 +535,9 @@ export default function JDSolutionLanding() {
             <div>
               <h4 className="text-white font-semibold mb-6">Services</h4>
               <ul className="space-y-3">
-                <li className="text-blue-200/70 text-sm">Smart Studio Setup</li>
-                <li className="text-blue-200/70 text-sm">Video Production</li>
+                <li className="text-blue-200/70 text-sm">Web Design & Development</li>
                 <li className="text-blue-200/70 text-sm">Social Media Management</li>
-                <li className="text-blue-200/70 text-sm">Performance Ads</li>
+                <li className="text-blue-200/70 text-sm">LMS & Online Class Setup</li>
               </ul>
             </div>
 

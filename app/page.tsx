@@ -210,6 +210,23 @@ export default function JDSolutionLanding() {
         </div>
       </section>
 
+      {/* Our Story / Intro Section */}
+      <section className="py-20 md:py-28 bg-white dark:bg-slate-800/20 border-t border-slate-100 dark:border-slate-800 relative">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+          >
+            <h2 className="text-[#FF8C00] font-bold tracking-wider uppercase text-sm mb-6">Our Story</h2>
+            <p className="text-2xl md:text-3xl text-slate-800 dark:text-slate-200 leading-relaxed font-medium">
+              <span className="text-[#003366] dark:text-blue-400 font-bold">JD Solution</span> is a forward-thinking digital agency dedicated to empowering educators and businesses. We combine technical expertise with creative strategy to help our clients grow their online presence and impact.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section id="services" className="scroll-mt-32 py-24 bg-white dark:bg-slate-900 relative">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
